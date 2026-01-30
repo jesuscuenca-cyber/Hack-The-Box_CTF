@@ -2,7 +2,9 @@
 
 # Scope
 
-Cicada is an easy-difficult Windows machine that focuses on beginner Active Directory enumeration and exploitation. In this machine, players will enumerate the domain, identify users, navigate shares, uncover plaintext passwords stored in files, execute a password spray, and use the SeBackupPrivilege to achieve full system compromise.
+**Code** is a beginner-friendly Linux machine that hosts a web-based Python code editor vulnerable to **remote code execution** through a Python jail escape. By exploiting this flaw, an attacker can gain access as the **appproduction** user.
+Once inside, weak credentials are discovered in an **SQLite3 database**, which can then be used to log in as another user, **martin**. This account has **sudo privileges** over a backup script called **backy.sh**.
+The script contains insecure logic that can be abused to perform a **privilege escalation**, ultimately allowing the attacker to create a copy of the root directory and gain full system control.
 
 # Index
 - [Enumeration](Enumeration.md)
