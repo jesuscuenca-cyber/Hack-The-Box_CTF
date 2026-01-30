@@ -9,7 +9,7 @@ Inside the database, a hashed password is found and cracked, granting access to 
 
 # Index
 - [Enumeration](Enumeration.md)
-- [Fuuzing](Fuuzing.md)
+- [Fuzzing](Fuzzing.md)
 - [Foothold](Foothold.md)
 - [Lateral Movement](Lateral_Movement.md)
 - [Priv Escalation](Priv_Escalation.md)
