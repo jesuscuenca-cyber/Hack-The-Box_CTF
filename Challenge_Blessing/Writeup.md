@@ -4,6 +4,7 @@ In this challenge, we will first download the provided .zip file to see what it 
 
 In this case, it contains 3 files:
 blessing → if executed, it launches the following musical program:
+
 ```bash
 $ ./blessign
 ```
